@@ -1,4 +1,4 @@
-document.getElementById("mostrarEmail").addEventListener("click", () => {
-    document.getElementById("email").textContent =
-        "marianoencina2007@gmail.com"
+document.getElementById("mostrarContacto").addEventListener("click", () => {
+    const caja = document.getElementById("cajaContacto");
+    caja.style.display = "block"; 
 });
